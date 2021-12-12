@@ -1,0 +1,78 @@
+body {
+  text-align: center;
+  background: #c8d8e4;
+  /* background: #061018; */
+  color: black;
+  font-family: "OpenSans";
+  /* font-family: 'Times New Roman', Times, serif; */
+}
+
+@font-face {
+  font-family: "OpenSans";
+  src: url(../font/sans.ttf);
+}
+
+h3,
+h6 {
+  color: black;
+}
+
+p {
+  margin: 10px 0 !important;
+  color: black;
+}
+
+.login-container {
+  width: 400px;
+  margin-top: 3rem;
+}
+
+.intro {
+  margin: 2rem 0rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+nav {
+  background-color: #ffffff;
+}
+
+label {
+  color: black;
+}
+
+.title {
+  color: #2b6777;
+  text-align: center;
+  font-size: 2rem;
+}
+
+h5,
+.welcome {
+  color: #52ab98;
+}
+
+h1,
+.right,
+.hamburger {
+  color: #2b6777;
+}
+
+.fa-small {
+  font-size: 16px !important;
+}
+
+.btn-float {
+  float: left;
+  margin-right: 10px;
+}
+
+.img-small {
+  width: 100px;
+}
+
+.card-title {
+  color: black;
+}

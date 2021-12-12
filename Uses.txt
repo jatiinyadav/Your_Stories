@@ -1,0 +1,11 @@
+Express : NodeJS Framework
+Mongoose : Work with database, Create model
+Connect-mongo : Store sessions in database
+Express-sessions : For sessions and cookies
+Express-handlebars : It uses a template and an input object to generate HTML or other text formats.
+Dotenv: Put environment variables
+Method-override : DELETE, PUT Requests from our templates (By Default GET, POST)
+Moment : Format Dates
+Morgan : For logging in the terminal
+Passport : For authentication (passport-google-oauth20)
+Middleware : That has access to request object and response object

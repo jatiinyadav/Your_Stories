@@ -1,0 +1,44 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="icon" href="https://img.icons8.com/external-flatart-icons-lineal-color-flatarticons/64/000000/external-typing-work-from-home-flatart-icons-lineal-color-flatarticons.png" />
+    <title>Your Stories</title>
+  </head>
+  <body>
+    {{> _header}} 
+    {{> _add_btn}}
+
+    <div class="container white-text left-align" >
+      {{{body}}}
+    </div>
+
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"
+    >
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ckeditor/4.17.1/ckeditor.js" ></script>
+
+    <script>
+      M.Sidenav.init(document.querySelector('.sidenav'))
+      M.FormSelect.init(document.querySelector('#status'))
+
+      CKEDITOR.replace('body',{
+        plugins: 'wysiwygarea, toolbar, basicstyles, list, justify, blockquote',
+        height: '170'
+      })
+    </script>
+
+  </body>
+</html> 
