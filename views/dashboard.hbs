@@ -6,9 +6,10 @@
     </div>
     <div class="welcome">
       Welcome
-      {{name}}, Glad to see you here!! 
-      <br>
-      Member since {{formatDate createdAt "MMMM Do YYYY, h:mm:ss a"}}
+      {{name}}, Glad to see you here!!
+      <br />
+      Member since
+      {{formatDate createdAt "MMMM Do YYYY, h:mm:ss a"}}
     </div>
   </div>
 </div>
@@ -47,6 +48,9 @@
     </tbody>
   </table>
 {{else}}
-  <p>No stories yet 😕</p>
+  <div style="text-align: center;">
+    <h1>No stories yet 😕</h1>
+    <p>Click on the add button at the bottom to add Stories</p>
+  </div>
 
 {{/if}}
